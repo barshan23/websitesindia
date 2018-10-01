@@ -1,0 +1,19 @@
+ReadMe:
+
+For Running the task 1 that is the fb.py : 
+	Python 2.7
+	required packages:
+		reuests, sqlite3
+	Now to run this code replace value of the page_access_token variable with the page access token of the fb page to be accessed
+
+For Running the task 2 that is the wordpress.py:
+	python 2.7
+	required packages:
+		beautifulsoup4, sqlite3, selenium with chrome driver
+	To run this place the chrome driver executable in the same folder as the code, and check the instruction on line 14 for first run. The data will be stored inside a sqlite db called wordpress.db in the same directory.
+
+For Running the task 3 that is indiamart.py:
+	python 2.7
+	required packages:
+		sqlite3, Beautifulsoup4, selenium with chrome driver
+	To run this place the chrome driver executable in the same folder as the code, and check the instruction on line 16 for first run. And to change the seller replace the url variable (line 24) with the sellers url from indiamart.com. The data will be stored inside a sqlite db called indiamart.db in the same directory.
