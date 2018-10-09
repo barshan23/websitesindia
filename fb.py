@@ -2,7 +2,7 @@ import requests,sqlite3,json
 
 # this is the page access token that is needed for accessing data of a facebook page. And for a unreviewed fb apps,
 # we can only access the pages of the users from whose account the access token is generated
-page_access_token = "EAAKpTuo29L0BABb3SL1HMVeuC4vIZB3ZCjPzZBpijNUOFzjP52iqWXkXYTzvb092asJAUOUDZBcqZAOnBc9F0KqZAA4kyi2daYZBYTz6F3QDEhZB5gHovNuiKhJRZCRjZAZApGVL6P2wZAEHAmZBUxawu1xcyVnqJCr0ZAuy2QTy2BcG0E3kzILXnPwIDqCxvnriA5jTm6DCns8h5pygZDZD"
+page_access_token = ""
 
 
 base_url = "https://graph.facebook.com/v3.1/"
