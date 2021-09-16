@@ -1,0 +1,42 @@
+{
+    "info": {
+        "_postman_id": "306ca9c1-b6f1-489c-9e36-b3e9cd871dd7",
+        "name": "l",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "L",
+            "id": "ddd0f35e-84f6-4bab-9976-c8a4629e7f47",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "{{baseUrl}}/pets?limit=80910207",
+                    "host": [
+                        "{{baseUrl}}"
+                    ],
+                    "path": [
+                        "pets"
+                    ],
+                    "query": [
+                        {
+                            "description": "How many items to return at one time (max 100)",
+                            "key": "limit",
+                            "value": "80910207"
+                        }
+                    ]
+                }
+            },
+            "response": []
+        }
+    ],
+    "variable": [
+        {
+            "id": "baseUrl",
+            "key": "baseUrl",
+            "value": "http://petstore.swagger.io/v1",
+            "type": "string"
+        }
+    ]
+}
