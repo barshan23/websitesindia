@@ -13,8 +13,6 @@ files[] = {"id":"58edba1f-1fcb-43db-947c-323206a30655","path":"New Collection_42
 files[] = {"id":"5b428d69-f3a8-4660-ad22-09ca8631b3c6","path":"New Collection_427-5b428d69-f3a8-4660-ad22-09ca8631b3c6.json","metaData":{}}
 files[] = {"id":"92adfe83-2770-4981-aea3-37089d916e75","path":"Poppy1_427-92adfe83-2770-4981-aea3-37089d916e75.json","metaData":{}}
 files[] = {"id":"3936e67d-44b7-49af-8bbf-b908777772e3","path":"Test-V3_06ad9dab-5cbf-4adb-b9e2-6752d8603658.json","metaData":{}}
-files[] = {"id":"35ac8459-ef53-4d85-a711-d787b1c49617","path":"Test_7483c24c-7e6e-485d-a1d5-4ee5f23843b3.json","metaData":{}}
-files[] = {"id":"79a8c7ec-2da5-4060-97eb-237cc00af5fa","path":"Test_c93dd098-3c2f-4fc6-b18b-af2a6ae1fc45.json","metaData":{}}
 
 [relations.collections.metaData]
 
