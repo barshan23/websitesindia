@@ -1,0 +1,153 @@
+{
+	"info": {
+		"_postman_id": "ba53292d-4c86-407b-a8b0-2fd00d80b861",
+		"name": "Test Copy",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "23241194-ba53292d-4c86-407b-a8b0-2fd00d80b861"
+	},
+	"item": [
+		{
+			"name": "Sample endpoint: Returns details about a particular user",
+			"id": "f4f7a865-50a0-4cc8-b061-5c831f54c372",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json"
+					}
+				],
+				"url": {
+					"raw": "{{baseUrl}}/user?id=37533348",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"user"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "37533348",
+							"description": "(Required) ID of the user"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"id": "0c866cb1-f6fc-4399-8a8f-34fedd313399",
+					"name": "Sample response: Details about a user by ID",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=37533348",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "37533348",
+									"description": "(Required) ID of the user"
+								}
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"disabled": false,
+							"description": "A link to the next page of responses",
+							"key": "x-next",
+							"value": "est laboris culpa"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"id\": -81449417,\n  \"name\": \"reprehenderit magna\",\n  \"tag\": \"ullamco Duis occaecat qui ex\"\n}"
+				},
+				{
+					"id": "1d2eabe6-ff4d-4d5f-a6fa-9994fbf012cc",
+					"name": "Unexpected error",
+					"originalRequest": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Accept",
+								"value": "application/json"
+							}
+						],
+						"url": {
+							"raw": "{{baseUrl}}/user?id=37533348",
+							"host": [
+								"{{baseUrl}}"
+							],
+							"path": [
+								"user"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "37533348",
+									"description": "(Required) ID of the user"
+								}
+							]
+						}
+					},
+					"status": "Internal Server Error",
+					"code": 500,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						}
+					],
+					"cookie": [],
+					"body": "{\n  \"code\": -88466889,\n  \"message\": \"tempor minim\"\n}"
+				}
+			]
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "<Basic Auth Username>",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "<Basic Auth Password>",
+				"type": "string"
+			}
+		]
+	},
+	"variable": [
+		{
+			"id": "4a34deca-df15-4363-8fb6-e068a2de6fae",
+			"key": "baseUrl",
+			"value": "localhost:3000",
+			"type": "string"
+		}
+	]
+}
