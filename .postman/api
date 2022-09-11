@@ -1,16 +1,20 @@
-id = 3eb4366d-9a04-422c-9a56-1df01b6ded30
+id = 4d1d8174-3b5b-4e48-a9df-edc47340363a
 
 [relations]
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"d303c263-3d48-4e94-aefc-6c0375194fb6","path":"Col 1.json","metaData":{}}
+files[] = {"id":"9cefb5d8-e10c-4c70-acdc-ce1a697678f4","path":"New Collection.json","metaData":{}}
 files[] = {"id":"ba53292d-4c86-407b-a8b0-2fd00d80b861","path":"Test Copy_23241194-ba53292d-4c86-407b-a8b0-2fd00d80b861.json","metaData":{}}
+files[] = {"id":"c549f51d-75b6-4c0e-9d5d-fcb431dd94d8","path":"To be added.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
 files[] = {"path":"index copy.yaml","metaData":{}}
+files[] = {"path":"index Copy.yaml","metaData":{}}
 files[] = {"path":"index.yaml","metaData":{}}
 files[] = {"path":"Schema_1.yaml","metaData":{}}
 files[] = {"path":"test.yaml","metaData":{}}
