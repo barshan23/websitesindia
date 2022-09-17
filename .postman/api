@@ -4,6 +4,7 @@ id = ab44373d-1143-400a-ad67-0cf36bb8f9eb
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"a2e01ea4-961a-46e7-a019-7d99f5cd2764","path":"Slack Web API.json","metaData":{}}
 files[] = {"id":"aac45fb4-0d35-4039-88cc-99615edda8dc","path":"To be added(1).json","metaData":{}}
 
 [relations.collections.metaData]
